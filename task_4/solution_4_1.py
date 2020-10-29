@@ -1,6 +1,10 @@
-# your code here
 for smth in 'a'*10:
-    user_input = input()
-    # your code here
-    if my_cool_condition == True:
-        print(form, lemma)
+    ID = int(input())
+    FORM = input()
+    LEMMA = input()
+    CHTO_TO = input()
+    condition = FORM == LEMMA
+    if condition == False:
+      print(FORM, LEMMA)
+    else:
+        continue
