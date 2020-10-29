@@ -1,4 +1,3 @@
-# your code here
 user_input = input()
-# your code here
+most_frequent_character = max(user_input)
 print(most_frequent_character)
